@@ -2,7 +2,7 @@
     "type": "project",
     "license": "proprietary",
     "require": {
-        "php": "^7.2.5",
+        "php": "^7.4",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "symfony/console": "5.0.*",
@@ -12,6 +12,10 @@
         "symfony/yaml": "5.0.*"
     },
     "require-dev": {
+        "behat/behat": "^3.6",
+        "friends-of-behat/symfony-extension": "^2.0",
+        "symfony/maker-bundle": "^1.14",
+        "webmozart/assert": "^1.7"
     },
     "config": {
         "preferred-install": {
